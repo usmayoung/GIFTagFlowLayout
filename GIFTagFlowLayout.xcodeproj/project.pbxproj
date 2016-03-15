@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		F117E5B41C98892E00F97E3D /* GIFTagFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F117E5B31C98892E00F97E3D /* GIFTagFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F117E5C01C9889E100F97E3D /* TagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F117E5BB1C9889E100F97E3D /* TagCell.xib */; };
+		F117E5C11C9889E100F97E3D /* TagCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F117E5BC1C9889E100F97E3D /* TagCell.h */; };
+		F117E5C21C9889E100F97E3D /* TagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F117E5BD1C9889E100F97E3D /* TagCell.m */; };
+		F117E5C31C9889E100F97E3D /* GIFTagLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F117E5BE1C9889E100F97E3D /* GIFTagLayout.h */; };
+		F117E5C41C9889E100F97E3D /* GIFTagLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F117E5BF1C9889E100F97E3D /* GIFTagLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F117E5B01C98892E00F97E3D /* GIFTagFlowLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GIFTagFlowLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F117E5B31C98892E00F97E3D /* GIFTagFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GIFTagFlowLayout.h; sourceTree = "<group>"; };
 		F117E5B51C98892E00F97E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F117E5BB1C9889E100F97E3D /* TagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TagCell.xib; sourceTree = "<group>"; };
+		F117E5BC1C9889E100F97E3D /* TagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagCell.h; sourceTree = "<group>"; };
+		F117E5BD1C9889E100F97E3D /* TagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagCell.m; sourceTree = "<group>"; };
+		F117E5BE1C9889E100F97E3D /* GIFTagLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GIFTagLayout.h; sourceTree = "<group>"; };
+		F117E5BF1C9889E100F97E3D /* GIFTagLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GIFTagLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +56,11 @@
 		F117E5B21C98892E00F97E3D /* GIFTagFlowLayout */ = {
 			isa = PBXGroup;
 			children = (
+				F117E5BB1C9889E100F97E3D /* TagCell.xib */,
+				F117E5BC1C9889E100F97E3D /* TagCell.h */,
+				F117E5BD1C9889E100F97E3D /* TagCell.m */,
+				F117E5BE1C9889E100F97E3D /* GIFTagLayout.h */,
+				F117E5BF1C9889E100F97E3D /* GIFTagLayout.m */,
 				F117E5B31C98892E00F97E3D /* GIFTagFlowLayout.h */,
 				F117E5B51C98892E00F97E3D /* Info.plist */,
 			);
@@ -60,6 +75,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F117E5B41C98892E00F97E3D /* GIFTagFlowLayout.h in Headers */,
+				F117E5C11C9889E100F97E3D /* TagCell.h in Headers */,
+				F117E5C31C9889E100F97E3D /* GIFTagLayout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F117E5C01C9889E100F97E3D /* TagCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F117E5C21C9889E100F97E3D /* TagCell.m in Sources */,
+				F117E5C41C9889E100F97E3D /* GIFTagLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
