@@ -15,5 +15,6 @@ FOUNDATION_EXPORT double GIFTagFlowLayoutVersionNumber;
 FOUNDATION_EXPORT const unsigned char GIFTagFlowLayoutVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <GIFTagFlowLayout/PublicHeader.h>
+#import <GIFTagFlowLayout/GIFTagLayout.h>
 
 

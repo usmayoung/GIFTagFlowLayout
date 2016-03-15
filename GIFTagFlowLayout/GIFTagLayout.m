@@ -18,7 +18,7 @@
 #pragma mark - Init
 - (void)commonInit {
     _cache = [NSMutableArray new];
-    _numberOfRows = 4;
+    _numberOfRows = 2;
     _cellPadding = 2;
 }
 
